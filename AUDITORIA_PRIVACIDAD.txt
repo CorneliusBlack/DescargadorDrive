@@ -1,0 +1,19 @@
+AUDITORÍA DE PRIVACIDAD DEL PAQUETE PÚBLICO
+============================================
+
+identificador AAA como token independiente: SIN COINCIDENCIAS
+ruta de perfil Windows: SIN COINCIDENCIAS
+correo electrónico: SIN COINCIDENCIAS
+token OAuth literal: SIN COINCIDENCIAS
+client secret literal: SIN COINCIDENCIAS
+archivo credentials incrustado: SIN COINCIDENCIAS
+
+URLs de drive.google.com presentes: SÍ, únicamente como patrones/endpoints funcionales del programa.
+No se detectaron rutas de perfil de Windows, correos, tokens OAuth, client_secret ni un credentials.json incrustado.
+
+Nota: D:\Descargas_GDrive aparece como carpeta predeterminada genérica del programa.
+
+EXCLUIDOS DEL PAQUETE:
+credentials.json, token_oauth_beta.json, token_oauth_beta.dpapi, *.dpapi,
+estado_descargas.json, cola_enlaces.json, configuracion.json, revision_manual.txt,
+descargas, logs y datos locales del usuario.
