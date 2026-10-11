@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# PyInstaller / build
+build/
+dist/
+*.spec
+
+# Installer output
+Instalador/
+Output/
+*.exe
+*.msi
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# DescargadorDrive - DATOS PRIVADOS
+credentials.json
+**/credentials.json
+token_oauth_beta.json
+**/token_oauth_beta.json
+token_oauth_beta.dpapi
+**/token_oauth_beta.dpapi
+estado_descargas.json
+**/estado_descargas.json
+cola_enlaces.json
+**/cola_enlaces.json
+configuracion.json
+**/configuracion.json
+revision_manual.txt
+**/revision_manual.txt
+*.dpapi
+
+# Posibles exportaciones/logs privados
+*.log
+Descargas_GDrive/
+downloads/
+datos_usuario/
+private/
+secrets/
+.env
+.env.*
